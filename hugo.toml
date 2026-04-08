@@ -5,13 +5,25 @@ theme = "PaperMod"
 paginate = 5
 
 [params]
-  author = "Your Name"
-  description = "My personal thoughts and writings"
+  author = "Md Ashraful Islam"
+  description = "Data Scientist | AI & ML Engineer | Python | PyTorch | LLM | RAG"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/AshrafulIslamDE"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/md-ashraful-islam-de"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:md.ashraful.islam.de@gmail.com"
 
 [menu]
   [[menu.main]]
