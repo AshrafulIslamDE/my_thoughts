@@ -2,7 +2,8 @@ baseURL = "https://AshrafulIslamDE.github.io/my_thoughts/"
 languageCode = "en-us"
 title = "My Thoughts"
 theme = "PaperMod"
-paginate = 5
+[pagination]
+  pagerSize = 5
 
 [params]
   author = "Md Ashraful Islam"
