@@ -1,9 +1,15 @@
-image: registry.gitlab.com/pages/hugo/hugo_extended:0.160.1
+image: debian:bookworm-slim
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
+  HUGO_VERSION: "0.160.1"
 
 pages:
+  before_script:
+    - apt-get update -qq && apt-get install -y wget
+    - wget -qO /tmp/hugo.deb "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+    - dpkg -i /tmp/hugo.deb
+    - hugo version
   script:
     - hugo --minify
   artifacts:
