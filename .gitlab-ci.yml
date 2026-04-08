@@ -11,7 +11,7 @@ pages:
     - dpkg -i /tmp/hugo.deb
     - hugo version
   script:
-    - hugo --minify --baseURL "https://md_ashraful_islam.gitlab.io/my_thoughts/"
+    - hugo --minify --baseURL "https://md-ashraful-islam.gitlab.io/my_thoughts/"
   artifacts:
     paths:
       - public
