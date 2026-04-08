@@ -1,0 +1,28 @@
+baseURL = "https://example.github.io/my_thoughts/"
+languageCode = "en-us"
+title = "My Thoughts"
+theme = "PaperMod"
+paginate = 5
+
+[params]
+  author = "Your Name"
+  description = "My personal thoughts and writings"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 30
