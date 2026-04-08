@@ -16,8 +16,7 @@ summary: "About Md Ashraful Islam"
 |---|---|
 | **Email** | [md.ashraful.islam.de@gmail.com](mailto:md.ashraful.islam.de@gmail.com) |
 | **Phone** | +49 176 43401347 |
-| **Location** | Vogelwoogstr. 32, 67659 Kaiserslautern, Germany |
-| **Date of Birth** | 07 January 1989 |
+| **Location** |Kaiserslautern, Germany |
 | **LinkedIn** | [md-ashraful-islam-de](https://linkedin.com/in/md-ashraful-islam-de) |
 | **GitHub** | [AshrafulIslamDE](https://github.com/AshrafulIslamDE) |
 | **Languages** | English (C2), Deutsch (A2) |
